@@ -1,0 +1,24 @@
+{
+  "name": "ddb-operation-prototype",
+  "version": "1.0.0",
+  "scripts": {
+    "babel": "./node_modules/.bin/babel src --out-dir dist",
+    "babel:node": "nodemon --exec babel-node src",
+    "watch": "nodemon --exec npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonNozaki/ddb-operations-prototype.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonNozaki/ddb-operations-prototype/issues"
+  },
+  "homepage": "https://github.com/simonNozaki/ddb-operations-prototype#readme",
+  "dependencies": {
+    "aws-sdk": "^2.888.0",
+    "nodemon": "^2.0.7",
+    "uuid": "^8.3.2"
+  }
+}
