@@ -43,3 +43,4 @@ dynamoDB.createTable({
     ]
 }).promise()
     .then(value => console.log('テーブルを作成しました: ', value.TableDescription.TableName))
+    .catch(e => console.error('エラー発生: ', e))
